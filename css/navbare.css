@@ -1,0 +1,112 @@
+
+header{
+
+	padding: 0 100px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	font-family: 'Didact Gothic', sans-serif;
+	left: 0;
+	background: #e3be90;
+	height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 2;
+
+}
+header .logo{
+
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bolder;
+
+}
+header .logo a{
+
+	text-decoration: none;
+	color: black;
+}
+header nav{
+
+	float: right;
+
+}
+header nav ul{
+
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+}
+header nav ul li{
+
+	list-style: none;
+
+}
+header nav ul li a{
+
+	text-decoration: none;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+
+}
+header nav ul li a:hover{
+
+	color: white;
+	background:  #755a3b;
+	display: block;
+
+}
+.open{
+
+	color: black;
+	float: right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+
+}
+
+
+
+/*Responsive*/
+
+@media screen and (max-width: 991px){
+
+	header{
+		position: fixed;
+		top: 0;
+		padding: 0 20px;
+
+	}
+	.open{
+
+		display: block;
+	}
+	header nav{
+
+		left: -100%;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: #e7e8ee ;
+		top: 50px;
+		transition: 0.5s;
+
+	}
+
+	header nav.active{
+		left: 0;
+	}
+	header nav ul{
+
+		display: block;
+		text-align: center;
+	}
+	
+}

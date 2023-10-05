@@ -1,0 +1,228 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.corps{
+	position: relative;
+	margin-top: 50px;
+	height: auto;
+	padding-bottom: 20px;
+	margin-bottom: -220px;
+}
+.corps .part1{
+
+	width: 100%;
+	height: 500px;
+	background: black;
+	display: flex;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+}
+.corps .part1 .connect{
+
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	background: #ffebd3;
+	text-align: right;
+	font-size: 26px;
+	padding-top: 50px;
+	padding-right: 50px;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	color: black;
+	text-transform: uppercase;
+
+}
+
+.corps .part1 .imageBx{
+	width: 50%;
+	height: 100%;
+	border-bottom: 500px solid transparent;
+	border-left: 100px solid #ffebd3;
+	box-sizing: border-box;
+	background: #d3cec6;
+	background: url("../image/bg6.png");
+	background-position: -90px -80px;
+}
+.corps .part1 .connect .btn{
+
+	position: relative;
+	margin: 20px 0 ;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #d0b48f;
+	background: white;
+	text-transform: none;
+	border: 2px solid #d0b48f;
+	text-align: left;
+	transition: 0.5s;
+	outline: none;
+	margin-left: 30%;
+	cursor: pointer;
+	border-radius: 30px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+}
+.corps .part1 .connect .btn:hover{
+	color: white;
+	background:  #d0b48f;
+}
+.corps .part2{
+
+	position: relative;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	width: 45%;
+	height: 600px;
+	margin-left: 25%; 
+}
+.corps .part2 .imgebx{
+	border: 1px solid black;
+	width: calc(45% - 50px);
+	border-radius: 30px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	background: url("../image/bg6.png");
+	background-size: cover;
+}
+.corps .part2 .content{
+
+	width: 30%;
+	margin-left: -20%;
+	margin-top: 25%;
+}
+.corps .part2 .content h2{
+
+	font-size: 26px;
+}
+.corps .part2 .content p{
+	font-size: 18px;
+}
+.corps .part3{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: #ffebd3;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+.corps .part3 h2{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.corps .part3 .container{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+} 
+.corps .part3 .container ul li{
+	display: flex;
+	list-style: none;
+	width: 450px;
+	height: 85px;
+	/*border: 2px solid black;*/
+	margin-bottom: 60px;
+	padding-left: 10px;
+	border-radius: 20px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	background: white;
+
+}
+.corps .part3 .container ul li .log{
+
+	font-size: 65px;
+	margin-right: 10px;
+}
+.corps .part3 .container .imageBx{
+	width: 280px;
+	height: 260px;
+	border: 2px solid black;
+	margin-left: -55%;
+	border-radius: 30px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	background: url("../image/bg6.png");
+	background-size: cover;
+}
+.corps .part4{
+	width: 100%;
+	display: flex;
+	padding-top: 100px;
+}
+.corps .part4 .partie1,.corps .part4 .partie2{
+
+	width: 450px;
+	height: 200px;
+	border: 1px solid black;
+	margin-left: 20px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+
+}
+.corps .part4 .partie1{
+
+	margin-left: 25%;
+}
+.corps .part4 .partie1 span,.corps .part4 .partie2 span{
+
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.corps .part4 .partie1 ul,.corps .part4 .partie2 ul{
+
+	list-style: none;
+}
+.corps .part4 .partie1 ul i,.corps .part4 .partie2 ul i{
+	color: green;
+	font-size: 24px;
+}
+.corps .part5{
+
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	background: #ebac5c;
+}
+.corps .part5 h4{
+	font-size: 26px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+.corps .part5 form .btn1{
+	position: relative;
+	margin-top: 20px;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+	background:#ebac5c ;
+	text-transform: none;
+	border: 2px solid white;
+	text-align: center;
+	width: 300px;
+	transition: 0.5s;
+	outline: none;
+	cursor: pointer;
+	border-radius: 30px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	margin-left: 0%;
+}
+.corps .part5 form .btn1:hover{
+	color: #563d1d;
+	background:  white;
+}
+
+.erreur{
+
+	color: red;
+	font-weight: bold;
+}

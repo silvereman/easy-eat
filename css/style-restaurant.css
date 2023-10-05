@@ -1,0 +1,194 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.corps .part1{
+
+	width: 100%;
+	height: 500px;
+	background: black;
+	display: flex;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+}
+.corps .part1 .connect{
+
+	width:100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 26px;
+	padding-top: 100px;
+	padding-right: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	z-index: 1;
+}
+.corps .part1 .connect h1{
+
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	text-transform: uppercase;
+}
+.corps .part1 .imageBx{
+
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	background: url("../image/bg7.jpg");
+	background-size: cover;
+	filter: blur(5px);
+}
+.corps .part1 .connect .btn{
+
+	position: relative;
+	margin: 20px 0 ;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	color: blue;
+	background: white;
+	text-transform: none;
+	border: 2px solid blue;
+	text-align: left;
+	transition: 0.5s;
+	outline: none;
+	cursor: pointer;
+	border-radius: 30px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+}
+.corps .part1 .connect .btn:hover{
+	color: white;
+	background:  blue;
+}
+.corps .suite{
+
+	width: 100%;
+	text-align: center;
+}
+.corps .suite h3{
+	font-size: 30px;
+	width: 80%;
+	margin-left: 10%;
+	color:  #563d1d;
+}
+.corps .suite .part2{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+.corps .suite .part2 .content{
+
+	width: 30%;
+	margin-right: 20px;
+	height: 250px;
+	padding: 20px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.corps .suite .part2 .content i{
+	font-size: 60px;
+}
+.corps .suite .part2 .content:nth-child(1) i{
+	color: #e5bd50;
+}
+.corps .suite .part2 .content:nth-child(2) i{
+	color: #8e7840;
+}
+.corps .suite .part2 .content:nth-child(3) i{
+	color: #f7b401;
+}
+.corps .suite .part3{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+.corps .suite .part3 .content{
+	width: 20%;
+	text-align: center;
+}
+.corps .suite .part3 .fleche{
+
+	color: red;
+	font-size: 80px;
+	margin-top: 40px;
+	text-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.corps .suite .part3 .content .circle{
+	margin-left: 70px;
+	width: 150px;
+	height: 130px;
+	border-radius: 50%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+	text-align: center;
+}
+.corps .suite .part3 .content .circle span{
+	font-size: 85px;
+	text-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.corps .suite .part3 .content h4{
+
+	font-size: 26px;
+}
+.corps .suite .part4{
+
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	font-size: 18px;
+
+}
+.corps .suite .part4 h4{
+	font-size: 40px;
+	color: green;
+}
+.corps .part5{
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #f7b401;
+	margin-bottom: -200px;
+}
+.corps .part5 h2{
+
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.corps .part5 .btn{
+
+	position: relative;
+	margin: 20px 0 ;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 20px;
+	color: blue;
+	background: white;
+	text-transform: none;
+	border: 2px solid blue;
+	text-align: left;
+	transition: 0.5s;
+	outline: none;
+	cursor: pointer;
+	border-radius: 30px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+}
+.corps .part5 .btn:hover{
+	color: white;
+	background:  blue;
+}

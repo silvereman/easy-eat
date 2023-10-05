@@ -1,0 +1,187 @@
+/*Pied de page*/
+footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding-top: 20px;
+	height: auto;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url("../image/bg4.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 200px; 
+	padding-bottom: 10px;
+}
+footer .tete-pied .site-plan{
+	display: flex;
+	position: relative;
+	width: 88%;
+	margin-left: 6%;
+	margin-top: 20px; 
+	justify-content: space-around;
+}
+footer .tete-pied .site-plan .content{
+	width: 24%;
+	color: white;
+}
+footer .tete-pied .site-plan .content h3{
+
+	width: 100%;
+	padding: 5px 5px;
+	text-align: center;
+	background: #a5600e;
+	font-size: 20px;
+	color: white;
+	pointer-events: none;
+}
+footer .tete-pied .site-plan .content ul{
+	list-style: none;
+	margin-left: -30px;
+}
+footer .tete-pied .site-plan .content ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+footer .tete-pied .site-plan .content ul li a:hover{
+	text-decoration: underline;
+}
+footer .tete-pied .site-plan .content.idem{
+	text-align: center;
+}
+.bouton{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.bouton:hover{
+	text-decoration: underline; 
+}
+footer .milieu{
+
+	display: flex;
+	justify-content: space-around;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 40px;
+} 
+footer .milieu .box{
+
+	width: 45%;
+	border: 2px solid  #c68639;
+	height: auto;
+	text-align: center;
+	background:  #f0ece6;
+	font-size: 14px;
+	color:  #564026;
+	border-radius: 20px;
+	padding-bottom: 5px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+footer .milieu .box .btn{
+	font-size: 14px;
+	display: inline-block;
+	padding: 5px 20px;
+	color: #c68639;
+	border: 2px solid #c68639;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 20px;
+}
+footer .milieu .box .btn:hover{
+	background: #c68639;
+	color: #f0ece6;
+}
+footer .social-icon{
+	width: 35%;
+	margin-left: 32.5%;
+	margin-top: 30px;
+}
+footer .social-icon ul{
+
+	display: flex;
+	justify-content: space-around;
+	font-size: 26px;
+	list-style:  none;
+}
+footer .social-icon ul li a{
+	color: white;
+	padding: 5px 15px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	background:  #c1935d;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+footer .social-icon ul li:nth-child(1) a{
+
+	padding: 5px 20px;
+}
+footer .social-icon ul li:nth-child(7) a{
+
+	padding: 5px 10px; 
+}
+footer .social-icon ul li:nth-child(1) a:hover{
+
+	background: #3d29be;
+	color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+
+}
+footer .social-icon ul li:nth-child(2) a:hover{
+
+	background: #f26496;
+	color: #fab8a0;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+footer .social-icon ul li:nth-child(3) a:hover{
+
+	background: #66a3b9;
+	color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+footer .social-icon ul li:nth-child(4) a:hover{
+
+	background: #1a1a1a;
+	color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+footer .social-icon ul li:nth-child(5) a:hover{
+
+	background: #a0d2e5;
+	color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+footer .social-icon ul li:nth-child(6) a:hover{
+
+	background: #3aab3e;
+	color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+footer .social-icon ul li:nth-child(7) a:hover{
+
+	background: red;
+	color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+footer .fin{
+	margin-top: 40px;
+}
+footer .fin ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	color: white;
+}
+footer .fin ul li a{
+	text-decoration: none;
+	color: white;
+}
+/*Pied de page*/
